@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+<rect width="1200" height="470" fill="#0d1117"/>
+<rect x="35" y="35" width="1130" height="400" rx="14" fill="#111827" stroke="#30363d"/>
+<text x="70" y="90" fill="#58a6ff" font-family="monospace" font-size="28">SOC-SIEM01 — receiver validation</text>
+<text x="70" y="155" fill="#c9d1d9" font-family="monospace" font-size="24">sudo ss -lntp | grep ':9997'</text>
+<text x="70" y="230" fill="#7ee787" font-family="monospace" font-size="23">LISTEN 0 128 0.0.0.0:9997 0.0.0.0:* users:(("splunkd",...))</text>
+<text x="70" y="310" fill="#f2cc60" font-family="monospace" font-size="22">Finding: Splunk receiver was listening on TCP/9997.</text>
+<text x="70" y="385" fill="#8b949e" font-family="monospace" font-size="18">Evidence visual transcribed from the lab screenshot.</text>
+</svg>
