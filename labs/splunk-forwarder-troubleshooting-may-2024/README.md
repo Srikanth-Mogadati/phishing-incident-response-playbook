@@ -4,7 +4,7 @@
 **Lab environment:** Windows 11 endpoint + Ubuntu Splunk Enterprise SIEM  
 **Purpose:** Document a real troubleshooting sequence from endpoint telemetry collection through successful ingestion.
 
-> Note: The portfolio date above is part of the project chronology. GitHub commit metadata reflects when this documentation was actually added.
+> Note: The portfolio date above is part of the project chronology. GitHub commit metadata reflects when this documentation was actually added. The evidence visuals below are transcribed from screenshots captured during the lab session.
 
 ## Executive summary
 
@@ -75,7 +75,7 @@ disabled = 0
 
 This confirmed that the endpoint collection layer was enabled.
 
-![Universal Forwarder Windows Event Log inputs](images/01-forwarder-inputs.png)
+![Universal Forwarder Windows Event Log inputs](images/01-forwarder-inputs.svg)
 
 ## Step 2 — Inspect the forwarder transport logs
 
@@ -88,7 +88,7 @@ No connection could be made because the target machine actively refused it.
 
 This was the key evidence that the problem was not Windows Event Log collection itself. The failure existed between the forwarder and the receiving service.
 
-![Forwarder connection errors](images/02-forwarder-connection-errors.png)
+![Forwarder connection errors](images/02-forwarder-connection-errors.svg)
 
 ## Step 3 — Validate the Splunk receiver
 
@@ -104,7 +104,7 @@ Splunk was then confirmed listening on:
 0.0.0.0:9997
 ```
 
-![Splunk listening on TCP 9997](images/03-splunk-listening-9997.png)
+![Splunk listening on TCP 9997](images/03-splunk-listening-9997.svg)
 
 This demonstrates an important troubleshooting distinction:
 
@@ -142,7 +142,7 @@ Active forwards:
 
 with no inactive destinations.
 
-![Universal Forwarder active connection](images/04-forwarder-active.png)
+![Universal Forwarder active connection](images/04-forwarder-active.svg)
 
 ## Step 5 — Search broadly instead of assuming the hostname
 
@@ -177,7 +177,7 @@ Splunk returned:
 
 **Total: 1,482 events**
 
-![Windows events successfully indexed in Splunk](images/05-events-ingested.png)
+![Windows events successfully indexed in Splunk](images/05-events-ingested.svg)
 
 ## Root-cause analysis
 
