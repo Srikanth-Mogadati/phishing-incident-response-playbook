@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<rect width="1200" height="600" fill="#0d1117"/>
+<rect x="35" y="35" width="1130" height="530" rx="14" fill="#111827" stroke="#30363d"/>
+<text x="70" y="85" fill="#58a6ff" font-family="monospace" font-size="28">Universal Forwarder — transport failure</text>
+<text x="70" y="145" fill="#ff7b72" font-family="monospace" font-size="22">ERROR TcpOutputFd — Connection to host=10.10.10.10:9997 failed</text>
+<text x="70" y="195" fill="#ffa198" font-family="monospace" font-size="21">No connection could be made because the target machine actively refused it.</text>
+<text x="70" y="270" fill="#ff7b72" font-family="monospace" font-size="22">Connection to host=10.10.10.10:9997 failed</text>
+<text x="70" y="320" fill="#ffa198" font-family="monospace" font-size="21">Target machine actively refused it.</text>
+<text x="70" y="410" fill="#f2cc60" font-family="monospace" font-size="22">Finding: break was in the forwarding/receiver path, not event collection.</text>
+<text x="70" y="505" fill="#8b949e" font-family="monospace" font-size="18">Evidence visual transcribed from the lab screenshot.</text>
+</svg>
