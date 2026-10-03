@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#0d1117"/>
+<rect x="35" y="35" width="1130" height="550" rx="14" fill="#111827" stroke="#30363d"/>
+<text x="70" y="90" fill="#58a6ff" font-family="monospace" font-size="28">Splunk — telemetry validation</text>
+<text x="70" y="145" fill="#c9d1d9" font-family="monospace" font-size="22">index=* | stats count by host, index, sourcetype</text>
+<text x="70" y="215" fill="#8b949e" font-family="monospace" font-size="20">host             index   sourcetype                    count</text>
+<text x="70" y="265" fill="#7ee787" font-family="monospace" font-size="21">DESKTOP-S9U0OTC  main    WinEventLog:Application        135</text>
+<text x="70" y="310" fill="#7ee787" font-family="monospace" font-size="21">DESKTOP-S9U0OTC  main    WinEventLog:Security           946</text>
+<text x="70" y="355" fill="#7ee787" font-family="monospace" font-size="21">DESKTOP-S9U0OTC  main    WinEventLog:System             401</text>
+<text x="70" y="430" fill="#f2cc60" font-family="monospace" font-size="24">Total indexed events: 1,482</text>
+<text x="70" y="500" fill="#7ee787" font-family="monospace" font-size="22">Outcome: Windows telemetry successfully searchable in Splunk.</text>
+<text x="70" y="550" fill="#8b949e" font-family="monospace" font-size="18">Evidence visual transcribed from the lab screenshot.</text>
+</svg>
