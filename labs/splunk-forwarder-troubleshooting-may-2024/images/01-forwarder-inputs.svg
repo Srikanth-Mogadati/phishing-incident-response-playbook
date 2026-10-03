@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<rect width="1200" height="560" fill="#0d1117"/>
+<rect x="35" y="35" width="1130" height="490" rx="14" fill="#111827" stroke="#30363d"/>
+<text x="70" y="85" fill="#58a6ff" font-family="monospace" font-size="28">Universal Forwarder — WinEventLog inputs</text>
+<text x="70" y="135" fill="#c9d1d9" font-family="monospace" font-size="22">btool inputs list --debug | Select-String "WinEventLog"</text>
+<text x="70" y="205" fill="#7ee787" font-family="monospace" font-size="24">[WinEventLog://Application]</text>
+<text x="70" y="250" fill="#7ee787" font-family="monospace" font-size="24">[WinEventLog://Security]</text>
+<text x="70" y="295" fill="#7ee787" font-family="monospace" font-size="24">[WinEventLog://System]</text>
+<text x="70" y="365" fill="#c9d1d9" font-family="monospace" font-size="22">disabled = 0</text>
+<text x="70" y="420" fill="#f2cc60" font-family="monospace" font-size="21">Finding: endpoint collection inputs were enabled.</text>
+<text x="70" y="475" fill="#8b949e" font-family="monospace" font-size="18">Evidence visual transcribed from the lab screenshot.</text>
+</svg>
